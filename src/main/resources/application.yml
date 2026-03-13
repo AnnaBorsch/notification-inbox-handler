@@ -1,0 +1,63 @@
+app:
+  name: notification-inbox-handler
+  inbox:
+    batch-size: 50
+    delay-ms: 1000
+    max-retries: 3
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: notification-inbox-handler
+
+  datasource:
+    url: jdbc:postgresql://localhost:5445/notification_inbox
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 30000
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          batch_size: 20
+    show-sql: false
+    open-in-view: false
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: notification-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      enable-auto-commit: false
+      auto-offset-reset: earliest
+      max-poll-records: 100
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: '*'
+
+logging:
+  file:
+    name: logs/notification-inbox-handler.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 10
