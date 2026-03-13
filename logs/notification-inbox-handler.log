@@ -3022,3 +3022,1360 @@
 2026-03-13T14:05:12.887+03:00  INFO 1916 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: Consumer stopped
 2026-03-13T14:05:12.887+03:00  INFO 1916 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-notification-group-4 unregistered
 2026-03-13T14:05:12.888+03:00  INFO 1916 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: Consumer stopped
+2026-03-13T14:05:25.543+03:00  INFO 27008 --- [notification-inbox-handler] [main] .r.n.NotificationInboxHandlerApplication : Starting NotificationInboxHandlerApplication using Java 21.0.9 with PID 27008 (C:\Users\anna\IdeaProjects\notification-inbox-handler\target\classes started by anna in C:\Users\anna\IdeaProjects\notification-inbox-handler)
+2026-03-13T14:05:25.545+03:00  INFO 27008 --- [notification-inbox-handler] [main] .r.n.NotificationInboxHandlerApplication : No active profile set, falling back to 1 default profile: "default"
+2026-03-13T14:05:26.229+03:00  INFO 27008 --- [notification-inbox-handler] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-13T14:05:26.304+03:00  INFO 27008 --- [notification-inbox-handler] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2026-03-13T14:05:26.883+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-03-13T14:05:26.895+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-13T14:05:26.896+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-03-13T14:05:26.953+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-13T14:05:26.953+03:00  INFO 27008 --- [notification-inbox-handler] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1357 ms
+2026-03-13T14:05:27.068+03:00  INFO 27008 --- [notification-inbox-handler] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-13T14:05:27.226+03:00  INFO 27008 --- [notification-inbox-handler] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18709cb2
+2026-03-13T14:05:27.228+03:00  INFO 27008 --- [notification-inbox-handler] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-13T14:05:27.303+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-03-13T14:05:27.303+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-03-13T14:05:27.304+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.f.c.internal.license.VersionPrinter    : 
+2026-03-13T14:05:27.320+03:00  INFO 27008 --- [notification-inbox-handler] [main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5445/notification_inbox (PostgreSQL 15.17)
+2026-03-13T14:05:27.378+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.031s)
+2026-03-13T14:05:27.399+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 1
+2026-03-13T14:05:27.402+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-03-13T14:05:27.495+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-13T14:05:27.562+03:00  INFO 27008 --- [notification-inbox-handler] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-03-13T14:05:27.597+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-13T14:05:27.818+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-13T14:05:27.867+03:00  WARN 27008 --- [notification-inbox-handler] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-13T14:05:28.818+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-13T14:05:28.880+03:00  INFO 27008 --- [notification-inbox-handler] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-13T14:05:29.124+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-13T14:05:30.346+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2026-03-13T14:05:30.384+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.471+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.472+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.472+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.472+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930471
+2026-03-13T14:05:30.475+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Subscribed to topic(s): telegram-events
+2026-03-13T14:05:30.482+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.490+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.490+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.490+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.490+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930490
+2026-03-13T14:05:30.491+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Subscribed to topic(s): telegram-events
+2026-03-13T14:05:30.492+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.499+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.499+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.499+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.499+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930499
+2026-03-13T14:05:30.500+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Subscribed to topic(s): telegram-events
+2026-03-13T14:05:30.502+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-4
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.507+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.507+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.507+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.507+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930507
+2026-03-13T14:05:30.507+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Subscribed to topic(s): sms-events
+2026-03-13T14:05:30.509+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-5
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.513+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.513+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.513+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.513+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930513
+2026-03-13T14:05:30.513+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Subscribed to topic(s): sms-events
+2026-03-13T14:05:30.515+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-6
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.518+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.519+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.519+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.519+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930518
+2026-03-13T14:05:30.519+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Subscribed to topic(s): sms-events
+2026-03-13T14:05:30.520+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-7
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.525+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.525+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.525+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.525+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930525
+2026-03-13T14:05:30.525+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Subscribed to topic(s): push-events
+2026-03-13T14:05:30.526+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-8
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.530+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.530+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.530+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.530+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930530
+2026-03-13T14:05:30.530+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Subscribed to topic(s): push-events
+2026-03-13T14:05:30.532+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-9
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.536+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.536+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.536+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.536+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930536
+2026-03-13T14:05:30.536+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Subscribed to topic(s): push-events
+2026-03-13T14:05:30.537+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-10
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.541+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.541+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.541+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.541+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930541
+2026-03-13T14:05:30.541+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Subscribed to topic(s): email-events
+2026-03-13T14:05:30.543+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-11
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.546+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.546+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.546+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.546+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930546
+2026-03-13T14:05:30.546+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Subscribed to topic(s): email-events
+2026-03-13T14:05:30.548+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-notification-group-12
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1024
+	group.id = notification-group
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 100
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2026-03-13T14:05:30.551+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.k.clients.consumer.ConsumerConfig    : These configurations '[spring.json.trusted.packages]' were supplied but are not used yet.
+2026-03-13T14:05:30.551+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.1
+2026-03-13T14:05:30.551+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 5e3c2b738d253ff5
+2026-03-13T14:05:30.551+03:00  INFO 27008 --- [notification-inbox-handler] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773399930551
+2026-03-13T14:05:30.551+03:00  INFO 27008 --- [notification-inbox-handler] [main] fkaConsumerFactory$ExtendedKafkaConsumer : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Subscribed to topic(s): email-events
+2026-03-13T14:05:30.561+03:00  INFO 27008 --- [notification-inbox-handler] [main] .r.n.NotificationInboxHandlerApplication : Started NotificationInboxHandlerApplication in 5.613 seconds (process running for 6.372)
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.864+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Cluster ID: 5L6g3nShT-eMCtK--X86sw
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.865+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2026-03-13T14:05:30.870+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.870+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.870+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.870+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.870+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.870+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.871+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.871+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.871+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.871+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.871+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.871+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.897+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-3-bfd3cb43-7d6e-4d78-85d3-da5a0358d0a9
+2026-03-13T14:05:30.897+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-12-81fbd3e9-05df-41f7-ae1a-43cbed31fc30
+2026-03-13T14:05:30.897+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-9-fd83d12e-1d5a-4a29-affc-f2eae031debc
+2026-03-13T14:05:30.898+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.898+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-10-6de93a7b-3209-4b22-9976-b551148e38f7
+2026-03-13T14:05:30.897+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-5-606ee696-ff44-4e06-be61-50957ed94e28
+2026-03-13T14:05:30.898+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-6-e179505b-75aa-4423-b964-2fda01d34aff
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.898+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.898+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-7-12c42e8d-7187-4c80-99ee-62c4b6440923
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-11-125655e5-b995-4bb9-bdc2-4183a7f90136
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.899+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-4-65e7f408-3ee5-472f-86f5-0950ee15b320
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-8-1c63ca9f-2937-48b0-aa35-bd7c06d1553d
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-2-224a14b4-c7ff-4c93-a999-172688924fb5
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Request joining group due to: need to re-join with the given member-id: consumer-notification-group-1-9150c528-a01f-423a-abb5-d395a2724b90
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.900+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2026-03-13T14:05:30.901+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.901+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] (Re-)joining group
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-5-606ee696-ff44-4e06-be61-50957ed94e28', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-7-12c42e8d-7187-4c80-99ee-62c4b6440923', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-1-9150c528-a01f-423a-abb5-d395a2724b90', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-9-fd83d12e-1d5a-4a29-affc-f2eae031debc', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-2-224a14b4-c7ff-4c93-a999-172688924fb5', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-4-65e7f408-3ee5-472f-86f5-0950ee15b320', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-3-bfd3cb43-7d6e-4d78-85d3-da5a0358d0a9', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-11-125655e5-b995-4bb9-bdc2-4183a7f90136', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-6-e179505b-75aa-4423-b964-2fda01d34aff', protocol='range'}
+2026-03-13T14:05:30.907+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-8-1c63ca9f-2937-48b0-aa35-bd7c06d1553d', protocol='range'}
+2026-03-13T14:05:30.908+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-10-6de93a7b-3209-4b22-9976-b551148e38f7', protocol='range'}
+2026-03-13T14:05:30.908+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Successfully joined group with generation Generation{generationId=5, memberId='consumer-notification-group-12-81fbd3e9-05df-41f7-ae1a-43cbed31fc30', protocol='range'}
+2026-03-13T14:05:30.921+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Finished assignment for group at generation 5: {consumer-notification-group-6-e179505b-75aa-4423-b964-2fda01d34aff=Assignment(partitions=[]), consumer-notification-group-11-125655e5-b995-4bb9-bdc2-4183a7f90136=Assignment(partitions=[]), consumer-notification-group-1-9150c528-a01f-423a-abb5-d395a2724b90=Assignment(partitions=[telegram-events-0]), consumer-notification-group-3-bfd3cb43-7d6e-4d78-85d3-da5a0358d0a9=Assignment(partitions=[]), consumer-notification-group-2-224a14b4-c7ff-4c93-a999-172688924fb5=Assignment(partitions=[]), consumer-notification-group-5-606ee696-ff44-4e06-be61-50957ed94e28=Assignment(partitions=[]), consumer-notification-group-7-12c42e8d-7187-4c80-99ee-62c4b6440923=Assignment(partitions=[push-events-0]), consumer-notification-group-8-1c63ca9f-2937-48b0-aa35-bd7c06d1553d=Assignment(partitions=[]), consumer-notification-group-4-65e7f408-3ee5-472f-86f5-0950ee15b320=Assignment(partitions=[sms-events-0]), consumer-notification-group-9-fd83d12e-1d5a-4a29-affc-f2eae031debc=Assignment(partitions=[]), consumer-notification-group-10-6de93a7b-3209-4b22-9976-b551148e38f7=Assignment(partitions=[email-events-0]), consumer-notification-group-12-81fbd3e9-05df-41f7-ae1a-43cbed31fc30=Assignment(partitions=[])}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-12-81fbd3e9-05df-41f7-ae1a-43cbed31fc30', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-10-6de93a7b-3209-4b22-9976-b551148e38f7', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-7-12c42e8d-7187-4c80-99ee-62c4b6440923', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-1-9150c528-a01f-423a-abb5-d395a2724b90', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-2-224a14b4-c7ff-4c93-a999-172688924fb5', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-6-e179505b-75aa-4423-b964-2fda01d34aff', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-9-fd83d12e-1d5a-4a29-affc-f2eae031debc', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-4-65e7f408-3ee5-472f-86f5-0950ee15b320', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-5-606ee696-ff44-4e06-be61-50957ed94e28', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-8-1c63ca9f-2937-48b0-aa35-bd7c06d1553d', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-11-125655e5-b995-4bb9-bdc2-4183a7f90136', protocol='range'}
+2026-03-13T14:05:30.927+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Successfully synced group in generation Generation{generationId=5, memberId='consumer-notification-group-3-bfd3cb43-7d6e-4d78-85d3-da5a0358d0a9', protocol='range'}
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[sms-events-0])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[email-events-0])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[telegram-events-0])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Notifying assignor about the new Assignment(partitions=[push-events-0])
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-11, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-2, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-3, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-12, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-5, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-8, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-9, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.928+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-6, groupId=notification-group] Adding newly assigned partitions: 
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-2-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-1-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-2-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-1-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-1-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.931+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.932+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-2-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: []
+2026-03-13T14:05:30.937+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Adding newly assigned partitions: telegram-events-0
+2026-03-13T14:05:30.937+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Adding newly assigned partitions: push-events-0
+2026-03-13T14:05:30.937+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Adding newly assigned partitions: email-events-0
+2026-03-13T14:05:30.937+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Adding newly assigned partitions: sms-events-0
+2026-03-13T14:05:30.945+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Found no committed offset for partition email-events-0
+2026-03-13T14:05:30.945+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Found no committed offset for partition push-events-0
+2026-03-13T14:05:30.945+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Found no committed offset for partition telegram-events-0
+2026-03-13T14:05:30.946+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-notification-group-4, groupId=notification-group] Setting offset for partition sms-events-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=2}}
+2026-03-13T14:05:30.947+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#3-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: [sms-events-0]
+2026-03-13T14:05:30.952+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-notification-group-10, groupId=notification-group] Resetting offset for partition email-events-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=2}}.
+2026-03-13T14:05:30.953+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: [email-events-0]
+2026-03-13T14:05:30.953+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-notification-group-7, groupId=notification-group] Resetting offset for partition push-events-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=2}}.
+2026-03-13T14:05:30.953+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-notification-group-1, groupId=notification-group] Resetting offset for partition telegram-events-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=2}}.
+2026-03-13T14:05:30.953+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: [push-events-0]
+2026-03-13T14:05:30.953+03:00  INFO 27008 --- [notification-inbox-handler] [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : notification-group: partitions assigned: [telegram-events-0]
