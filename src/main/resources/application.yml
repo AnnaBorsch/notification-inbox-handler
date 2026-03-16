@@ -1,16 +1,6 @@
-app:
-  name: notification-inbox-handler
-  inbox:
-    batch-size: 50
-    delay-ms: 1000
-    max-retries: 3
-
-server:
-  port: 8081
-
 spring:
   application:
-    name: notification-inbox-handler
+    name: notification-inbox-handler  # Перенесли из .properties
 
   datasource:
     url: jdbc:postgresql://localhost:5445/notification_inbox
@@ -53,6 +43,16 @@ spring:
           json:
             trusted:
               packages: '*'
+
+app:
+  name: notification-inbox-handler
+  inbox:
+    batch-size: 50
+    delay-ms: 1000
+    max-retries: 3
+
+server:
+  port: 8081
 
 logging:
   file:
